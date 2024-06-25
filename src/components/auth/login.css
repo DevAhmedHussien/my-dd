@@ -1,0 +1,12 @@
+.css-p51h6s-MuiInputBase-input-MuiOutlinedInput-input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 0px #266798 inset !important;
+    -webkit-text-fill-color: black !important;
+    caret-color:black !important;
+    border-radius: inherit;
+}
+.css-1h9uykw-MuiInputBase-input-MuiOutlinedInput-input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 0px #266798 inset !important;
+    -webkit-text-fill-color: black !important;
+    caret-color:black !important;
+    border-radius: inherit;
+}

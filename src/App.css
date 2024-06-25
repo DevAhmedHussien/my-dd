@@ -1,38 +1,57 @@
-.App {
-  text-align: center;
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: capitalize;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root{
+    --primary:#638889;
+    --second :#9DBC98;
+    --light:#F9EFDB;
+    --fourth:#EBD9B4;
+    --blue-primary:#3399ff;
+    --hover:#e5eaf299; 
+    --hover-2:#6b7a90; 
+    /* #6b7a90 */
+    /* --sign: #3399ff; */
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* borderRadius:'10px' */
+/* background: `linear-gradient(to right bottom, #007fff, blue 120%)`,
+boxShadow:' rgba(0, 0, 0, 0.1) 0px 20px 25px, rgba(0, 0, 0, 0.04) 0px 10px 10px', */
+/* border:'1px solid e5eaf299', */
+/* sign{
+} */
+@font-face {
+    font-family: AhmedBold ;
+    src: url(../public/Font/Lora-SemiBold.ttf);
+    font-weight: 900;
+}@font-face {
+    font-family: AhmedBold ;
+    src: url(../public/Font/Lora-Bold.ttf);
+    font-weight: 600;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@font-face {
+    font-family: AhmedBold ;
+    src: url(../public/Font/Lora-Medium.ttf);
+    font-weight: normal;
 }
-
-.App-link {
-  color: #61dafb;
+@font-face {
+    font-family: AhmedBold ;
+    src: url(../public/Font/Lora-Regular.ttf);
+    font-weight: 300;
 }
+/* _______________ */
+@keyframes rotate {
+    0% {
+        transform: rotateY(0deg);
+      }
+      50% {
+        transform: rotateY(180deg);
+      }
+      100% {
+        transform: rotateY(360deg);
+      }
+    
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
